@@ -1,4 +1,5 @@
-**Interactive Travel Planner Assistant**
+**JourneyGPT**
+**An LLM-Driven Travel Companio**
 
 
 This project is an interactive travel planning assistant that leverages Streamlit for the frontend, FastAPI for API handling, Neo4j for user preference storage, Folium for map generation, and Ollama with Llama 3.2 for natural language understanding. The assistant can interpret user inputs to generate an itinerary, provide weather updates, retrieve relevant news, and display an interactive map for planned locations.
@@ -63,9 +64,4 @@ Based on Llama 3.2's response, the system executes relevant actions through agen
 Frontend Display:
 The assistant’s response is displayed in the Streamlit app, including preferences, itinerary suggestions, weather information, and an interactive map.
 Maps are generated using Folium and displayed through streamlit_folium for interactivity.
-
-
-
-link to demo video:
-https://drive.google.com/file/d/19XmeXGIZS5MtwGAOtGrWpCJdNMtt8dwu/view?usp=drive_link
 
